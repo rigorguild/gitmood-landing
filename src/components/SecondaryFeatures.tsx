@@ -21,7 +21,8 @@ interface Feature {
 const features: Array<Feature> = [
   {
     name: 'Detailed Reporting',
-    summary: 'Stay on top of your development with always up-to-date reporting features.',
+    summary:
+      'Stay on top of your development with always up-to-date reporting features.',
     description:
       'Our detailed reporting ensures you have all the information you need about your pull requests and feedback cycles, helping you continuously improve.',
     image: screenshotProfitLoss,
@@ -55,8 +56,7 @@ const features: Array<Feature> = [
   },
   {
     name: 'Real-time Feedback',
-    summary:
-      'Never miss a comment with real-time feedback tracking.',
+    summary: 'Never miss a comment with real-time feedback tracking.',
     description:
       'Gitmood tracks feedback in real-time, ensuring you’re always up to date with your team’s comments and suggestions.',
     image: screenshotInventory,
@@ -83,8 +83,7 @@ const features: Array<Feature> = [
   },
   {
     name: 'Team Collaboration',
-    summary:
-      'Organize all team feedback and discussions in one place.',
+    summary: 'Organize all team feedback and discussions in one place.',
     description:
       'Gitmood centralizes all feedback, making it easy for your team to stay organized and on the same page.',
     image: screenshotContacts,
@@ -105,7 +104,6 @@ const features: Array<Feature> = [
     },
   },
 ]
-
 
 function Feature({
   feature,
@@ -238,7 +236,7 @@ export function SecondaryFeatures() {
             Simplify your development feedback
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because making feedback complicated wouldn't help anyone.
+            Because making feedback complicated wouldn&apos;t help anyone.
             Gitmood keeps it straightforward and effective
           </p>
         </div>

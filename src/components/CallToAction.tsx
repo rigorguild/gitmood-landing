@@ -24,8 +24,8 @@ export function CallToAction() {
             Get started today
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            It’s time to take control of your development process.
-            Try Gitmood and start enhancing your team's productivity.
+            It’s time to take control of your development process. Try Gitmood
+            and start enhancing your team&apos;s productivity.
           </p>
           <Button href="/register" color="white" className="mt-10">
             Free ßeta
