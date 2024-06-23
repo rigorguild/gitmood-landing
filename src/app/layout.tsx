@@ -6,11 +6,11 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    template: '%s - Gitmood',
+    default: 'Gitmood - Feedback made simple for development teams',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'Most feedback tools are comprehensive but difficult to use. We take the opposite approach, making feedback simple and actionable',
 }
 
 const inter = Inter({
